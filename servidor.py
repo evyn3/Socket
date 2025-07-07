@@ -2,10 +2,10 @@ import socket
 
 print("--------Servidor--------")
 
-localhost = socket.gethostbyname('localhost')
-print("O endereço do localhost é:", localhost)
+#localhost = socket.gethostbyname('localhost')
+#print("O endereço do localhost é:", localhost)
 
-address = input("Digite o endereço IP do servidor : ") or 'localhost'
+address = input("Digite o endereço IP do servidor (deixe em branco para endereço 'localhost'): ") or 'localhost'
 port = input("Digite a porta lógica do servidor (deixe em branco para porta '10000'): ") or 10000
 
 port = int(port)
